@@ -10,3 +10,20 @@ Text Domain: astra-child-theme
 Template: astra
 */
 
+.main-header-bar-wrap {
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.site-content {
+  margin-top: 3.9em;
+}
+
+@media only screen and (max-width: 900px) {
+    .site-content { 
+      margin: 0 auto;
+    }
+}
