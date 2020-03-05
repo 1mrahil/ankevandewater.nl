@@ -13,17 +13,27 @@ Template: astra
 .main-header-bar-wrap {
   z-index: 999;
   position: fixed;
+  height: initial;
   width: 100%;
   top: 0;
   left: 0;
 }
 
-.site-content {
-  margin-top: 3.9em;
+@media only screen and (min-width: 915px) {
+  .site-content .ast-container {
+    padding-top: 6em;
+  }
 }
 
-@media only screen and (max-width: 900px) {
-    .site-content { 
-      margin: 0 auto;
-    }
+@media only screen and (max-width: 915px) {
+  .site-content .ast-container {
+    padding-top: 5.1em;
+  }
 }
+
+/* @media only screen and (max-width: 1024px) {
+  .elementor-widget-image .elementor-image img.attachment-full.size-full {
+    position: relative;
+    padding-top: 5.4em;
+  }
+} */
