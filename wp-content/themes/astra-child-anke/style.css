@@ -31,9 +31,24 @@ Template: astra
   }
 }
 
-/* @media only screen and (max-width: 1024px) {
-  .elementor-widget-image .elementor-image img.attachment-full.size-full {
-    position: relative;
-    padding-top: 5.4em;
+.woocommerce-MyAccount-content,
+.woocommerce-MyAccount-navigation {
+  padding-top: 5em;
+}
+
+@media only screen and (max-width: 1000px) {
+  .woocommerce-MyAccount-content {
+    padding: 2em 1em 5em 1em;
   }
-} */
+}
+@media only screen and (max-width: 1024px) {
+  .woocommerce-MyAccount-content,
+  .woocommerce-MyAccount-navigation {
+    padding-top: 6.5em;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .woocommerce-notices-wrapper {
+    padding-top: 1.5em;
+  }
+}
