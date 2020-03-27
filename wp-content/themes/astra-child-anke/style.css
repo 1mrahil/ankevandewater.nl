@@ -52,3 +52,7 @@ Template: astra
     padding-top: 1.5em;
   }
 }
+
+.ast-woocommerce-container {
+  padding: 6em 1.5em 0;
+}
